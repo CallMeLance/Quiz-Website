@@ -1,0 +1,25 @@
+body {
+    background-color: lightgray;
+}
+
+#submit, #reset {
+    font-size: 20px;
+    background-color: cyan;
+    color: white;
+    padding: 5px;
+    cursor: pointer;
+    display: inline-block;
+    margin-bottom: 20px;
+}
+
+#submit:hover, #reset:hover {
+    background-color: bisque;
+}
+
+.answers {
+    margin-bottom: 20px;
+}
+
+.answers label {
+    display: block
+}
